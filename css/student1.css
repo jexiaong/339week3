@@ -1,0 +1,21 @@
+h1{
+    color:rgb(40, 40, 155) ;
+    background-color: #d1d1d1;
+    border: solid 10 px black;
+    border-width: 10px 2px;
+}
+
+h2{
+    size: 10px;
+    background-color: yellow;
+    color: blueviolet;
+    border:solid;
+}
+
+body{
+    background-color: pink;
+}
+
+h3{
+    border: solid;
+}
