@@ -1,21 +1,37 @@
-h1{
-    color:rgb(40, 40, 155) ;
-    background-color: #d1d1d1;
-    border: solid 10 px black;
-    border-width: 10px 2px;
-}
-
-h2{
-    size: 10px;
-    background-color: yellow;
-    color: blueviolet;
-    border:solid;
-}
-
 body{
-    background-color: pink;
+    margin:5px;
+    padding:5px;
+    line-height:1.15;
 }
 
-h3{
-    border: solid;
+h1,h2, h3{
+    font-weight: bold;
+    margin-top:15px;
+}
+
+ul li{
+    margin-left: 25px;
+    list-style-type: upper-roman;
+}
+
+nav ul li{
+    display: inline-block;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+img {
+    box-sizing: border-box;
+    width: 24%;
+    padding: 10px;
+    border: 2px solid blue;
+    margin: 0;
+}
+
+p{
+    color: green;
+    background-color: aquamarine;
+    text-align: right;
 }
